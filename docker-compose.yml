@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  testdockerapp:
+    image: testdockerapp
+    build: .
+    volumes:
+      - ./output:/app/output
